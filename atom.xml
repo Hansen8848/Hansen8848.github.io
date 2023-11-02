@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-02T10:01:41.053Z</updated>
+  <updated>2023-11-02T10:40:32.554Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/"/>
-    <id>http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</id>
-    <published>2023-11-02T07:42:04.358Z</published>
-    <updated>2023-11-02T10:01:41.053Z</updated>
+    <title>面向对象编程</title>
+    <link href="http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/"/>
+    <id>http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/</id>
+    <published>2023-11-02T10:39:42.000Z</published>
+    <updated>2023-11-02T10:40:32.554Z</updated>
     
     <content type="html"><![CDATA[<p>##为什么要包装基本数据类型</p><ol><li>便于使用类中的方法<br>例如说 new Integer(int).toString()得到字符串<br> Integer.parseInt(“1A”,16)returns 26;</li></ol><p>How to use:<br>        DOUble d &#x3D; new Double(“5”);&#x2F;&#x2F;5也可以&#x2F;Integer<br>###注意自动装箱和自动拆箱（10.8.1）  </p><p>###BigInteger&#x2F;BigDecimal类<br>        new BigInteger(String)&#x2F;BigDecimal(String)<br>        divide(BigDecimal d,int scale,int roundingMode);<br>其中scale为小数点后整数位数；roundingMode为舍入方式  </p><p>##字符串类<br>构造：Java将字符串字面值看作String对象  </p><ul><li>不可变字符串和驻留字符串   </li><li>替换和拆分字符串  </li><li>使用模式匹配、替换和拆分  <ul><li>*<em>正则表达式（regular expression&#x2F;regex)</em></li></ul></li><li>字符串与数组相互转换<br>  String.toCharArray<br>  String.getChars(int srcBegin,int srcEnd,char[]dst,int dstBegin)</li><li>将字符和数值转化为字符串</li><li>格式化字符串</li></ul><p>###StringBuilder&#x2F;StringButterfly类</p>]]></content>
     

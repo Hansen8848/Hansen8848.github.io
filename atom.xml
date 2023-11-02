@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-02T10:40:32.554Z</updated>
+  <updated>2023-11-02T10:48:02.608Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,18 +21,15 @@
     <link href="http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/"/>
     <id>http://example.com/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/</id>
     <published>2023-11-02T10:39:42.000Z</published>
-    <updated>2023-11-02T10:40:32.554Z</updated>
+    <updated>2023-11-02T10:48:02.608Z</updated>
     
-    <content type="html"><![CDATA[<p>##为什么要包装基本数据类型</p><ol><li>便于使用类中的方法<br>例如说 new Integer(int).toString()得到字符串<br> Integer.parseInt(“1A”,16)returns 26;</li></ol><p>How to use:<br>        DOUble d &#x3D; new Double(“5”);&#x2F;&#x2F;5也可以&#x2F;Integer<br>###注意自动装箱和自动拆箱（10.8.1）  </p><p>###BigInteger&#x2F;BigDecimal类<br>        new BigInteger(String)&#x2F;BigDecimal(String)<br>        divide(BigDecimal d,int scale,int roundingMode);<br>其中scale为小数点后整数位数；roundingMode为舍入方式  </p><p>##字符串类<br>构造：Java将字符串字面值看作String对象  </p><ul><li>不可变字符串和驻留字符串   </li><li>替换和拆分字符串  </li><li>使用模式匹配、替换和拆分  <ul><li>*<em>正则表达式（regular expression&#x2F;regex)</em></li></ul></li><li>字符串与数组相互转换<br>  String.toCharArray<br>  String.getChars(int srcBegin,int srcEnd,char[]dst,int dstBegin)</li><li>将字符和数值转化为字符串</li><li>格式化字符串</li></ul><p>###StringBuilder&#x2F;StringButterfly类</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="为什么要包装基本数据类型"><a href="#为什么要包装基本数据类型" class="headerlink" title="为什么要包装基本数据类型"></a>为什么要包装基本数据类型</h2><ol><li>便于使用类中的方法<br>例如说 new Integer(int).toString()得到字符串<br> Integer.parseInt(“1A”,16)returns 26;</li></ol><p>How to use:<br>        DOUble d &#x3D; new Double(“5”);&#x2F;&#x2F;5也可以&#x2F;Integer    </p><h3 id="注意自动装箱和自动拆箱（10-8-1）"><a href="#注意自动装箱和自动拆箱（10-8-1）" class="headerlink" title="注意自动装箱和自动拆箱（10.8.1）"></a>注意自动装箱和自动拆箱（10.8.1）</h3><h3 id="BigInteger-BigDecimal类"><a href="#BigInteger-BigDecimal类" class="headerlink" title="BigInteger&#x2F;BigDecimal类"></a>BigInteger&#x2F;BigDecimal类</h3><pre><code>    new BigInteger(String)/BigDecimal(String)      divide(BigDecimal d,int scale,int roundingMode);</code></pre><p>其中scale为小数点后整数位数；roundingMode为舍入方式  </p><h2 id="字符串类"><a href="#字符串类" class="headerlink" title="字符串类"></a>字符串类</h2><p>构造：Java将字符串字面值看作String对象  </p><ul><li>不可变字符串和驻留字符串   </li><li>替换和拆分字符串  </li><li>使用模式匹配、替换和拆分  <ul><li>*<em>正则表达式（regular expression&#x2F;regex)</em></li></ul></li><li>字符串与数组相互转换<br>  String.toCharArray<br>  String.getChars(int srcBegin,int srcEnd,char[]dst,int dstBegin)</li><li>将字符和数值转化为字符串</li><li>格式化字符串</li></ul><h3 id="StringBuilder-StringButterfly类"><a href="#StringBuilder-StringButterfly类" class="headerlink" title="StringBuilder&#x2F;StringButterfly类"></a>StringBuilder&#x2F;StringButterfly类</h3>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;##为什么要包装基本数据类型&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;便于使用类中的方法&lt;br&gt;例如说 new Integer(int).toString()得到字符串&lt;br&gt; Integer.parseInt(“1A”,16)returns 26;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;How </summary>
+    <summary type="html">&lt;h2 id=&quot;为什么要包装基本数据类型&quot;&gt;&lt;a href=&quot;#为什么要包装基本数据类型&quot; class=&quot;headerlink&quot; title=&quot;为什么要包装基本数据类型&quot;&gt;&lt;/a&gt;为什么要包装基本数据类型&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;便于使用类中的方法&lt;br&gt;例如说 new Int</summary>
       
     
     

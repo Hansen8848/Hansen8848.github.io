@@ -3,11 +3,11 @@
   <title>Java学习日志</title>
   
   
-  <link href="https://github.com/Hansen8848/Hansen8848.github.io.git/atom.xml" rel="self"/>
+  <link href="https://hansen8848.github.io/atom.xml" rel="self"/>
   
-  <link href="https://github.com/Hansen8848/Hansen8848.github.io.git/"/>
+  <link href="https://hansen8848.github.io/"/>
   <updated>2023-11-02T10:48:02.608Z</updated>
-  <id>https://github.com/Hansen8848/Hansen8848.github.io.git/</id>
+  <id>https://hansen8848.github.io/</id>
   
   <author>
     <name>Hansen8848</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>面向对象编程</title>
-    <link href="https://github.com/Hansen8848/Hansen8848.github.io.git/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/"/>
-    <id>https://github.com/Hansen8848/Hansen8848.github.io.git/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/</id>
+    <link href="https://hansen8848.github.io/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/"/>
+    <id>https://hansen8848.github.io/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/</id>
     <published>2023-11-02T10:39:42.000Z</published>
     <updated>2023-11-02T10:48:02.608Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://github.com/Hansen8848/Hansen8848.github.io.git/2023/11/01/hello-world/"/>
-    <id>https://github.com/Hansen8848/Hansen8848.github.io.git/2023/11/01/hello-world/</id>
+    <link href="https://hansen8848.github.io/2023/11/01/hello-world/"/>
+    <id>https://hansen8848.github.io/2023/11/01/hello-world/</id>
     <published>2023-11-01T14:00:58.409Z</published>
     <updated>2023-11-01T14:00:58.409Z</updated>
     

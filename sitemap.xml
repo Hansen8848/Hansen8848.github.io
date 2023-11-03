@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hansen8848.github.io/2023/11/03/%E7%BB%A7%E6%89%BF%E4%B8%8E%E5%A4%9A%E6%80%81/</loc>
+    
+    <lastmod>2023-11-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hansen8848.github.io/2023/11/02/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B-1/</loc>
     
-    <lastmod>2023-11-02</lastmod>
+    <lastmod>2023-11-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,11 +31,18 @@
 
   <url>
     <loc>https://hansen8848.github.io/</loc>
-    <lastmod>2023-11-02</lastmod>
+    <lastmod>2023-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://hansen8848.github.io/tags/java/</loc>
+    <lastmod>2023-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   

@@ -6,7 +6,7 @@
   <link href="https://hansen8848.github.io/atom.xml" rel="self"/>
   
   <link href="https://hansen8848.github.io/"/>
-  <updated>2023-11-03T09:55:48.888Z</updated>
+  <updated>2023-11-03T15:56:03.634Z</updated>
   <id>https://hansen8848.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://hansen8848.github.io/2023/11/03/%E7%BB%A7%E6%89%BF%E4%B8%8E%E5%A4%9A%E6%80%81/"/>
     <id>https://hansen8848.github.io/2023/11/03/%E7%BB%A7%E6%89%BF%E4%B8%8E%E5%A4%9A%E6%80%81/</id>
     <published>2023-11-03T05:49:43.000Z</published>
-    <updated>2023-11-03T09:55:48.888Z</updated>
+    <updated>2023-11-03T15:56:03.634Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul><li>调用父类的构造方法  </li><li>调用父类的普通方法</li><li>方法重写<ul><li>前置条件（一样的签名和一样或兼容的返回类型）</li><li>实例方法可访问</li><li>静态方法可继承，不可重写，重写会使父类方法隐藏，可通过SuperClassName.staticMethodName 访问</li></ul></li><li>方法重写与重载的区别（@Override)<ul><li>注：一个类中不能给出多个名称和参数相同的方法，即使返回值不一样</li></ul></li></ul><h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul><li>调用父类的构造方法  </li><li>调用父类的普通方法</li><li>方法重写<ul><li>前置条件（一样的签名和一样或兼容的返回类型）</li><li>实例方法可访问</li><li>静态方法可继承，不可重写，重写会使父类方法隐藏，可通过SuperClassName.staticMethodName 访问</li></ul></li><li>方法重写与重载的区别（@Override)<ul><li>注：一个类中不能给出多个名称和参数相同的方法，即使返回值不一样</li></ul></li></ul><h2 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h2><p>多态即意味着父类型的变量可以引用子类型的变量 </p><ul><li>动态绑定  <ul><li>方法可在沿着继承链的多个类中实现，最终由变量的实际类型决定</li></ul></li><li>对象转换和instanceof操作符<ul><li>当把一个父类的实例转换为它的子类变量时，使用强制转换（子类名）  也叫向下&#x2F;显示转换</li><li>instanceof 是Java关键字，意为 x是否是y的实例</li></ul></li><li>Object类的equals方法<br>   object1.equals(object2）；&#x2F;&#x2F; 检测两个引用变量是否指向同一个对象</li><li>ArraryList类（列表）<br>  ArraryList<AConcreteType> list &#x3D; new ArraryList&lt;&gt;();<ul><li>list.remove(object&#x2F;index), 当object为正整数时注意用new Integer(v)申明</li></ul></li><li>列表的一些方法<ul><li>从数组创建列表： Arrays.asList(array);</li><li>从数组列表创建对象数组： list.toArray(array1);</li><li>对列表元素排序&#x2F;max&#x2F;min： java.util.Collections.sort&#x2F;max&#x2F;min(list);</li><li>打乱列表元素： java.util.Collection.shuffle(list);</li></ul></li><li>自定义栈类</li></ul><p>###疑问<br>关于toString的使用<br>栈和堆的详细说明</p>]]></content>
     
     
       

@@ -6,7 +6,7 @@
   <link href="https://hansen8848.github.io/atom.xml" rel="self"/>
   
   <link href="https://hansen8848.github.io/"/>
-  <updated>2023-11-07T15:12:09.281Z</updated>
+  <updated>2023-11-07T15:18:05.472Z</updated>
   <id>https://hansen8848.github.io/</id>
   
   <author>
@@ -21,18 +21,14 @@
     <link href="https://hansen8848.github.io/2023/11/07/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%B0%8F%E7%BB%93/"/>
     <id>https://hansen8848.github.io/2023/11/07/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E5%B0%8F%E7%BB%93/</id>
     <published>2023-11-07T15:11:42.000Z</published>
-    <updated>2023-11-07T15:12:09.281Z</updated>
+    <updated>2023-11-07T15:18:05.472Z</updated>
     
-    <content type="html"><![CDATA[<p>#从面向对象开始<br>##面向对象<br>默认构造方法（default constructor)当且仅当类中没有任何构造方法时才会自动提供<br>###常用的java库中的类</p><ul><li>Date类</li><li>Random类</li><li>Point2D类</li></ul><p>###可见性修饰符<br>private限定访问权限在类内；默认修饰符限定访问权限在包内；public可以无限定访问<br>###数据域封装<br>使用private避免对数据域的修改，额外设置修改器和访问器用来改变和访问数据<br>###this关键字</p><ul><li>关键字this是一个对象可以用来引用自身的引用名<ul><li>当数据域被方法中参数隐藏时，使用this调用</li><li>调用同一个类中的另一个构造方法（此句应列在最前面）通常无参数或参数少的构造方法可以用this调用参数较多的构造方法，简化代码，易于维护</li></ul></li></ul><p>##面向对象思考<br>###类之间的关系</p><ul><li>关联，描述两个类之间的活动</li><li>聚集，聚集是组合的一种特殊形式，代表了两个对象之间的归属关系（has-a关系）</li><li>组合：如果被聚集对象的存在依赖于聚集对象，我们称这两个对象之间的关系为组合；即被聚集对象不能单独存在。</li></ul><p>###包装基本数据类型<br>常用的方法（以Integer为例）：<br>    new Integer(12).doubleValue() returns 12.0;<br>    new Integer(12).compareTo(new Interger(13)）returns -1;<br>    <em>state:</em> valueOf(s: String);parseInt(s String)<br>以及重载方法 valueOf(s: String，radix: int);parseInt(s String,radix: int)<br>    Integer integerObject &#x3D; Integer.valueOf(“12”);<br>    Integer.parseInt(“1A”,16) returns 26;</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="从面向对象开始"><a href="#从面向对象开始" class="headerlink" title="从面向对象开始"></a>从面向对象开始</h1><h2 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h2><p>默认构造方法（default constructor)当且仅当类中没有任何构造方法时才会自动提供  </p><h3 id="常用的java库中的类"><a href="#常用的java库中的类" class="headerlink" title="常用的java库中的类"></a>常用的java库中的类</h3><ul><li>Date类</li><li>Random类</li><li>Point2D类</li></ul><h3 id="可见性修饰符"><a href="#可见性修饰符" class="headerlink" title="可见性修饰符"></a>可见性修饰符</h3><p>private限定访问权限在类内；默认修饰符限定访问权限在包内；public可以无限定访问  </p><h3 id="数据域封装"><a href="#数据域封装" class="headerlink" title="数据域封装"></a>数据域封装</h3><p>使用private避免对数据域的修改，额外设置修改器和访问器用来改变和访问数据</p><h3 id="this关键字"><a href="#this关键字" class="headerlink" title="this关键字"></a>this关键字</h3><ul><li>关键字this是一个对象可以用来引用自身的引用名<ul><li>当数据域被方法中参数隐藏时，使用this调用</li><li>调用同一个类中的另一个构造方法（此句应列在最前面）通常无参数或参数少的构造方法可以用this调用参数较多的构造方法，简化代码，易于维护</li></ul></li></ul><h2 id="面向对象思考"><a href="#面向对象思考" class="headerlink" title="面向对象思考"></a>面向对象思考</h2><h3 id="类之间的关系"><a href="#类之间的关系" class="headerlink" title="类之间的关系"></a>类之间的关系</h3><ul><li>关联，描述两个类之间的活动</li><li>聚集，聚集是组合的一种特殊形式，代表了两个对象之间的归属关系（has-a关系）</li><li>组合：如果被聚集对象的存在依赖于聚集对象，我们称这两个对象之间的关系为组合；即被聚集对象不能单独存在。</li></ul><h3 id="包装基本数据类型"><a href="#包装基本数据类型" class="headerlink" title="包装基本数据类型"></a>包装基本数据类型</h3><p>常用的方法（以Integer为例）：<br>    new Integer(12).doubleValue() returns 12.0;<br>    new Integer(12).compareTo(new Interger(13)）returns -1;<br>    <em>state:</em> valueOf(s: String);parseInt(s String)<br>以及重载方法 valueOf(s: String，radix: int);parseInt(s String,radix: int)<br>    Integer integerObject &#x3D; Integer.valueOf(“12”);<br>    Integer.parseInt(“1A”,16) returns 26;</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;#从面向对象开始&lt;br&gt;##面向对象&lt;br&gt;默认构造方法（default constructor)当且仅当类中没有任何构造方法时才会自动提供&lt;br&gt;###常用的java库中的类&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Date类&lt;/li&gt;
-&lt;li&gt;Random类&lt;/li&gt;
-&lt;li&gt;Poi</summary>
+    <summary type="html">&lt;h1 id=&quot;从面向对象开始&quot;&gt;&lt;a href=&quot;#从面向对象开始&quot; class=&quot;headerlink&quot; title=&quot;从面向对象开始&quot;&gt;&lt;/a&gt;从面向对象开始&lt;/h1&gt;&lt;h2 id=&quot;面向对象&quot;&gt;&lt;a href=&quot;#面向对象&quot; class=&quot;headerlink&quot; titl</summary>
       
     
     
